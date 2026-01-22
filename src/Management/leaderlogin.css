@@ -1,0 +1,36 @@
+.Leader-container{
+    display: flex;
+    text-overflow: hidden;
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 20%;
+    box-shadow: 2px  2px  11px rgb(156, 237, 36);
+    border-radius: 15px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(247, 0, 255, 0.17), rgba(255, 51, 0, 0.214));
+
+}
+.Leader-container div{
+    min-width: 50%;
+    max-width: 100%;
+    /* background-color: black; */
+    margin: 1.2rem;
+
+}
+.Leader-container div input,label{
+    margin: 3%;
+    margin-left: 10%;
+}
+
+.appear-problem-description{
+    margin-top: 20px;
+    background-color: rgba(255, 119, 0, 0.219);
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.problem-container-apper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

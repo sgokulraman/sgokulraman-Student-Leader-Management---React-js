@@ -1,0 +1,93 @@
+.Mainpage-container{
+    display: flex;
+    text-overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20%;
+    width: 50%;
+    margin-left: 20%;
+    box-shadow: 2px  2px  11px rgb(156, 237, 36);
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(3, 3, 251, 0.477), rgba(246, 3, 3, 0.415));
+
+}
+.Mainpage-container div{
+    width: 42%;
+    /* background-color: black; */
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.Mainpage-container div button{
+    padding: 15%;
+}
+.Mainpage-container div button a{
+    color: white;
+    text-decoration: none;
+}
+.backarrow{
+    font-size: 30px;
+    margin: 20px;
+    display: inline;
+    background-color: black;
+    color: red;
+    border-radius: 14%;
+    
+}
+.backarrow:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td,th{
+    border: 1px solid;  
+    padding:5px;
+    background-color: rgba(128, 255, 0, 0.099);
+
+}
+td{
+    word-wrap: break-word;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    table-layout: fixed;
+    margin: 5px;
+    background-color: rgba(0, 0, 255, 0.056);
+
+}
+.table_container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(76, 203, 242, 0.19);
+    position: absolute;
+    z-index: -1;
+}
+
+.problem-container{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0.141);
+    display: flex;
+    border-radius: 14px;
+    padding: 0%;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.453);
+}
+
+.problem-container .problem-subcontainer {
+    width: 100%;
+    margin: 15px;
+
+}
+
+.buttons-for-stick{
+    border-radius: 5px;
+    box-shadow: 1px 1px brown;
+    background: lightblue;
+    margin: 2px;
+}

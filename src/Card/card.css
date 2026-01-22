@@ -1,0 +1,76 @@
+.container-card {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    overflow: hidden; 
+}
+
+.sub-container-card {
+    background-color: black;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px white;
+    background: linear-gradient(120deg, rgb(241, 241, 134), rgb(48, 196, 230), rgb(246, 204, 204));
+    max-height: 28rem;
+    height: 28rem;
+}
+.sub-container-card:hover{
+    box-shadow: 2px 2px 2px red;
+}
+.alignment{
+    bottom: 50%;
+}
+.sub-container-card img {
+    width: 300px;
+    padding: auto;
+    border-radius: 1.2rem;
+    height: 280px;
+
+}
+.sub-container-card img:hover{
+    cursor: pointer;
+    
+}
+.title-container{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: inline;
+    width: 160px;
+    
+}
+.title li{
+    display: inline;
+    width: 81px;
+    max-width: 81px;
+    word-break: break-word;
+    word-wrap: break-word;
+    margin: 10px;
+}
+.star-container-card{
+    display: inline;
+    padding: 0 10px 0 0;
+    width: 115px;
+}
+.content-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.sub-content-card{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+
+}
+.sub-content-card p{
+    padding: 0 10px 0 10px;
+    width: 100px;
+    min-width: 0px;
+    word-wrap: break-word;
+    word-break: break-word;
+}

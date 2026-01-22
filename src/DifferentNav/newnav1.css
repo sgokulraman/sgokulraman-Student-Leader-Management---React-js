@@ -1,0 +1,34 @@
+h1,.p-newnav1,p{
+    display: inline;
+}
+.nav1-sub-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 232, 187);
+    
+}
+.h1-icon{
+    background: linear-gradient(90deg,yellow, rgb(234, 73, 4));
+    background-size: 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: move 3s infinite linear;
+}
+@keyframes move{
+    0%{background-position: 0%;}
+    100%{background-position: 100%;}
+}
+.p-newnav1{
+    margin: 0px 20px;
+}
+.register-nav1{
+    margin: 0 0 0 30%;
+}
+.image-nav1{
+    width: 20px;
+    height: 20px;
+}
+.register-nav2{
+    margin: 0 0 0 30%;
+}
