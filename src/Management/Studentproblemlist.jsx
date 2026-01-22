@@ -17,7 +17,7 @@ function Studentproblemlist({ a }) {
             "student": a.id
         }
         try {
-            let rel = await axios.post("http://127.0.0.1:8000/student/problem/", handledata)
+            let rel = await axios.post("https://gokulraman.pythonanywhere.com/student/problem/", handledata)
             setback(false)
         }
         catch (error) {
@@ -26,8 +26,12 @@ function Studentproblemlist({ a }) {
         }
     }
     const handleapi = async () => {
-        let handle = await axios.get("http://127.0.0.1:8000/student/problem/")
-        setapicalling(handle.data)
+        try 
+        {let handle = await axios.get("https://gokulraman.pythonanywhere.com/student/problem/")
+        setapicalling(handle.data)}
+        catch(error){
+            console.log("api error",error)
+        }
     }
     const alldata = () => {
         return apicalling.filter(p => p.student === a.id)
@@ -49,7 +53,7 @@ function Studentproblemlist({ a }) {
         alldata()
     }, [])
     useEffect(() => {
-        if (apicalling, a) {
+        if (apicalling && a) {
             const mergedata = alldata(apicalling, a)
             setmergeddata(mergedata)
         }
