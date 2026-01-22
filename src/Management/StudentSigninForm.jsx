@@ -27,7 +27,7 @@ export default function StudentSigninForm(){
             try{
 
                 console.log(body)
-                const res = await axios.post("http://127.0.0.1:8000/student/detail/",body)
+                const res = await axios.post("https://gokulraman.pythonanywhere.com/student/detail/",body)
                 setstudentdata(false)
 
                 
