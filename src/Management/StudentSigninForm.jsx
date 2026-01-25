@@ -25,7 +25,7 @@ export default function StudentSigninForm(){
         if (Data.password == Data.confirm_password){
 
             try{
-                const res = await axios.post("https://gokulraman.pythonanywhere.com/student/detail/",body)
+                const res = await axios.post("https://gokulraman.pythonanywhere.com/student/detail/",body,{headers: {"Content-Type":"application/json"},})
                 setstudentdata(false)
 
                 }
