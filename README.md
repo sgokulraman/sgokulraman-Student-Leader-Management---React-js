@@ -1,7 +1,6 @@
 # React + Vite
 
-Todo  List 
-LINK : https://sgokulraman.github.io/Todo-List---React-js/
+Student - Leader Management web link : https://sgokulraman.github.io/sgokulraman-Student-Leader-Management---React-js/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
